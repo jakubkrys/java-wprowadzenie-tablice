@@ -1,2 +1,2 @@
 # Tablice #
-W tym repozytorium znajduj¹ siê wszystkie æwiczenia, które wykona³em podczas nauki tablic.
+W tym repozytorium znajdujÄ… siÄ™ wszystkie Ä‡wiczenia, ktÃ³re wykonaÅ‚em podczas nauki tablic.
