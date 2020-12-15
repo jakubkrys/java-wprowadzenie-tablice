@@ -1,24 +1,24 @@
 class Crossword {
 	public static void main(String args[]){
 			
-		char[][] crossword = {{'w','i','l','k'},{'k','o','t'},{'¿','y','r','a','f','a'}};
+		char[][] crossword = {{'w','i','l','k'},{'k','o','t'},{'z','y','r','a','f','a'}};
 		
-		// Wyœwietl trzeci¹ literê drugiego has³a
+		// Show the third letter of the second word
 		System.out.println("Third letter of the second word: "+crossword[1][2]);
 		System.out.println();
 		
-		// Wyœwietl pierwsz¹ literê pierwszego has³a
+		// Show the first letter of the first word
 		System.out.println("First letter of the first word: "+crossword[0][0]);
 		System.out.println();
 		
-		// Zamieñ ostatni¹ literê trzeciego has³a na 'y'
+		// Replace the last letter of the third word by 'y'
 		crossword [2][5] = crossword[2][1];
 		
-		// Wyœwietl d³ugoœæ drugiego has³a krzy¿ówki
+		// Show length of the second word
 		System.out.println("Length of the second word: "+crossword[1].length);
 		System.out.println();
 		
-		// Wyœwietlenie krzy¿ówki
+		// Show whole crossword
 		System.out.println("------------");
 		System.out.println(crossword[0][0]+" "+crossword[0][1]+" "+crossword[0][2]+" "+crossword[0][3]);
 		System.out.println(crossword[1][0]+" "+crossword[1][1]+" "+crossword[1][2]);
