@@ -18,19 +18,23 @@ class NotesOrder {
 		System.out.println("--------------------");
 		
 		// Ustaw oceny w tablicy w kolejności od najmniejszej do największej ;
-		byte tmp0 = notes [0];
-		byte tmp1 = notes [3];
-		byte tmp2 = notes [2];
-		byte tmp3 = notes [4];
-		byte tmp4 = notes [1];
+		byte tmp;
+		
+		tmp = notes [4];
+		notes [4] = notes [1];
+		notes [1] = tmp;
+		
+		tmp = notes [3];
+		notes [3] = notes [1];
+		notes [1] = tmp;
 		
 		System.out.println("--------------------");
 		System.out.print("All notes ascending: ");
-		System.out.print(tmp0+", ");
-		System.out.print(tmp1+", ");
-		System.out.print(tmp2+", ");
-		System.out.print(tmp3+", ");
-		System.out.println(tmp4);
+		System.out.print(notes [0]);
+		System.out.print(notes [1]);
+		System.out.print(notes [2]);
+		System.out.print(notes [3]);
+		System.out.println(notes [4]);
 		System.out.println("--------------------");
 			
 	}
